@@ -1,0 +1,79 @@
+.navbar {
+  background-image: linear-gradient(to right, red, rgb(0, 0, 0));
+}
+
+.nav-link {
+  transition: 0.2s !important;
+}
+.nav-link:hover {
+  color: rgb(194, 194, 194) !important;
+  transition: 0.2s !important;
+}
+
+.banner {
+  background-image: linear-gradient(to right, red, rgb(0, 0, 0)) !important;
+}
+
+.wave1 {
+  width: 100%;
+}
+
+.title::before {
+  content: "";
+  background: linear-gradient(to right, red, rgb(0, 0, 0));
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: linear-gradient(to right, red, rgb(0, 0, 0));
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(15px);
+}
+
+.btn {
+  background: linear-gradient(to right, red, rgb(0, 0, 0));
+  transition: 0.2s;
+}
+.btn:hover {
+  background: red !important;
+  transition: 0.2s;
+}
+
+.clients {
+  padding: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, red, rgb(0, 0, 0)) 1 100%;
+     border-image: linear-gradient(to bottom, red, rgb(0, 0, 0)) 1 100%;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.social-icons {
+  height: 60px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.social-icons:hover {
+  height: 70px;
+  transition: 0.2;
+}
+
+.social-media {
+  background: #f8f9fa;
+}
+
+.footer {
+  background: linear-gradient(to right, red, rgb(0, 0, 0));
+}/*# sourceMappingURL=style.css.map */
